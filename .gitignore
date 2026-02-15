@@ -1,0 +1,27 @@
+### IntelliJ ###
+.idea/
+*.iml
+out/
+
+### Gradle ###
+.gradle/
+build/
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Env / Secrets ###
+.env
+
+# ignore real config files (may contain secrets)
+src/main/resources/application.yml
+src/main/resources/application.properties
+src/main/resources/application-*.yml
+src/main/resources/application-*.properties
+
+# allow example template
+!src/main/resources/application-example.yml
